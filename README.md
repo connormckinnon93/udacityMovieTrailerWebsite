@@ -24,9 +24,9 @@ Libraries included in this project are:
 
 In order to download and run a copy of this code on your local machine please follow the code below:
 
-`git clone https://github.com/connormckinnon93/udacityMovieTrailerWebsite.git
+`git clone https://github.com/connormckinnon93/udacityMovieTrailerWebsite.git`
 
-cd udacityMovieTrailerWebsite
+`cd udacityMovieTrailerWebsite`
 
-python entertainment_center.py`
+`python entertainment_center.py`
 

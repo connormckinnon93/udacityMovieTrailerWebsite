@@ -30,3 +30,8 @@ In order to download and run a copy of this code on your local machine please fo
 
 `python entertainment_center.py`
 
+# Known Bugs
+
+List of known bugs:
+1. Last 2 movies end up floating right when the title for guardians of the galaxy ends up on two lines
+

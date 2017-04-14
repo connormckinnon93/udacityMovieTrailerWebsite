@@ -10,3 +10,6 @@ class Movie():
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
         
+    def show_poster(self):
+        webbrowser.open(self.poster_image_url)
+        

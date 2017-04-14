@@ -1,3 +1,8 @@
+# This code was written while watching the associated course materials
+# I have refactored some in order to simplify production code
+# Other potential expansions of this code learned in the course can be found on the tv_shows branch
+
+
 # From the Python Standard Library and contains methods to work with the browser
 import webbrowser
 

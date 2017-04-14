@@ -17,8 +17,8 @@ It may work on other operating systems but the developer makes no guarantees.
 
 Libraries included in this project are:
 * Source Code for fresh_tomatoes.py: (https://github.com/adarsh0806/ud036_StarterCode.git)
-* Boostrap/Bootswatch: (https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+)
-* jQuery: (https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=)
+* Boostrap/Bootswatch: (https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css)
+* jQuery: (https://code.jquery.com/jquery-1.12.4.min.js)
 
 ### Installation and Launch
 

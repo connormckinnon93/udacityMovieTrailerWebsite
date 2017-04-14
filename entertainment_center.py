@@ -5,4 +5,4 @@ unbreakable = media.Movie("Unbreakable",
                          "https://upload.wikimedia.org/wikipedia/en/9/9e/Unbreakableposterwillis.jpg",
                          "https://www.youtube.com/watch?v=HGrN6blSCGw")
 
-print unbreakable.storyline
+print unbreakable.show_trailer()

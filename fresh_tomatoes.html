@@ -1,53 +1,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Movie Trailers</title>
 
     <!-- Bootstrap 3 -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <style type="text/css" media="screen">
-        body {
-            padding-top: 80px;
-        }
-        #trailer .modal-dialog {
-            margin-top: 200px;
-            width: 640px;
-            height: 480px;
-        }
-        .hanging-close {
-            position: absolute;
-            top: -12px;
-            right: -12px;
-            z-index: 9001;
-        }
-        #trailer-video {
-            width: 100%;
-            height: 100%;
-        }
-        .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
-        }
-        .movie-tile:hover {
-            background-color: #EEE;
-            cursor: pointer;
-        }
-        .scale-media {
-            padding-bottom: 56.25%;
-            position: relative;
-        }
-        .scale-media iframe {
-            border: none;
-            height: 100%;
-            position: absolute;
-            width: 100%;
-            left: 0;
-            top: 0;
-            background-color: white;
-        }
-    </style>
+    <link href="main.css" rel="stylesheet">
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
         $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
@@ -96,7 +56,7 @@
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="fresh_tomatoes.html">Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -105,32 +65,32 @@
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="HGrN6blSCGw" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Unbreakableposterwillis.jpg" width="220" height="342">
-    <h2>Unbreakable</h2>
+    <h2 class="movie-title">Unbreakable</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="d96cjJhvlMA" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/8/8f/GOTG-poster.jpg" width="220" height="342">
-    <h2>Guardians of the Galaxy</h2>
+    <h2 class="movie-title">Guardians of the Galaxy</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="j4yg5qPhCKo" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/The_Kings_of_Summer.jpg" width="220" height="342">
-    <h2>The Kings of Summer</h2>
+    <h2 class="movie-title">The Kings of Summer</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="b68CEs8_oGI" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/b/bb/Gataca_Movie_Poster_B.jpg" width="220" height="342">
-    <h2>GATTACA</h2>
+    <h2 class="movie-title">GATTACA</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="84vfsHCe2M0" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg" width="220" height="342">
-    <h2>Ex_Machina</h2>
+    <h2 class="movie-title">Ex_Machina</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="SUiavMWW5Vo" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg" width="220" height="342">
-    <h2>Arrival</h2>
+    <h2 class="movie-title">Arrival</h2>
 </div>
 
     </div>

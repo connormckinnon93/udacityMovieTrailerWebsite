@@ -6,53 +6,15 @@ import re
 main_page_head = '''
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Movie Trailers</title>
 
-    <!-- Bootstrap 3 -->
+    <!-- Bootstrap 3 (Bootswatch: Paper) -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <style type="text/css" media="screen">
-        body {
-            padding-top: 80px;
-        }
-        #trailer .modal-dialog {
-            margin-top: 200px;
-            width: 640px;
-            height: 480px;
-        }
-        .hanging-close {
-            position: absolute;
-            top: -12px;
-            right: -12px;
-            z-index: 9001;
-        }
-        #trailer-video {
-            width: 100%;
-            height: 100%;
-        }
-        .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
-        }
-        .movie-tile:hover {
-            background-color: #EEE;
-            cursor: pointer;
-        }
-        .scale-media {
-            padding-bottom: 56.25%;
-            position: relative;
-        }
-        .scale-media iframe {
-            border: none;
-            height: 100%;
-            position: absolute;
-            width: 100%;
-            left: 0;
-            top: 0;
-            background-color: white;
-        }
-    </style>
+    
+    <link href="main.css" rel="stylesheet">
+    
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
         $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
@@ -104,7 +66,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="fresh_tomatoes.html">Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -120,7 +82,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h2 class="movie-title">{movie_title}</h2>
 </div>
 '''
 

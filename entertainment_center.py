@@ -1,6 +1,10 @@
+# Contains the code to produce the website
 import fresh_tomatoes
+
+# Contains the classes used to manage information related to movies
 import media
 
+# Some of my favourite movies saved to instances of Movie
 unbreakable = media.Movie("Unbreakable",
                          "A man survives a horrific train crash. After the incident, with the help of a comic book shop owner, he learns that he may be more than human",
                          "https://upload.wikimedia.org/wikipedia/en/9/9e/Unbreakableposterwillis.jpg",
@@ -31,6 +35,6 @@ arrival = media.Movie("Arrival",
                      "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
                      "https://www.youtube.com/watch?v=SUiavMWW5Vo")
 
+# Enter information for website and then run the code to write and open the site
 movies = [unbreakable, guardians_galaxy, kings_summer, gattaca, ex_machina, arrival]
-
 fresh_tomatoes.open_movies_page(movies)
